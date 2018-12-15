@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Euphoria+Script|Gaegu|Schoolbell');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Jacques+Francois+Shadow|Ribeye+Marrow|Rye');
+/* font-family: 'Euphoria Script', cursive;
+font-family: 'Gaegu', cursive;
+font-family: 'Dokdo', cursive;
+font-family: 'Schoolbell', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Ribeye Marrow', cursive;*/
+
+* {
+  margin: 0;
+  font: 12px Arial;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  border: 5px double #9B6335;
+  background-color: #83A8A8;
+}
+
+
+.first {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.second {
+  height: 15%;
+  width: 100%;
+  border: 3px double #9B6335;
+  background-color: #83A8A8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.third {
+  height: 10%;
+  width: 100%;
+  border: 3px double #9B6335;
+  background-color: #0D4545;
+  display: inline-block;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fourth {
+  height: 70%;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 3px double #9B6335;
+  background-color: #357070;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  .quotes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ .authors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fifth {
+  height: 5%;
+  width: 100%;
+  border: 3px double #9B6335;
+  background-color: #0D4545;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ h1 {
+  color: #FFE0C6;
+  font-size: 5rem;
+  font-family: 'Ribeye Marrow', cursive;
+  /* font-family: 'Encode Sans Condensed', sans-serif; */
+  text-shadow: 2px 2px #9B6335;
+}
+
+h2 {
+ color: #FFE0C6;
+ font-size: 4.5rem;
+ font-family: 'Jim Nightshade', cursive;
+  text-shadow: 4px 4px #9B6335;
+}
+
+h3 {
+  color: #FFE0C6;
+  font-size: 4rem;
+  font-family: 'Jim Nightshade', cursive;
+  text-shadow: 2px 2px #9B6335;
+}
+
+h4 {
+  color: #FFE0C6;
+  font-size: 1.5rem;
+  font-family: 'Cinzel Decorative', cursive;
+  text-shadow: 2px 2px #9B6335;
+}
+
+h5 {
+  color: #FFE0C6;
+  font-size: 3rem;
+  font-family: 'Schoolbell', cursive;
+  text-shadow: 2px 2px #9B6335;
+}
+
+p {
+  color: #FFE0C6;
+  font-size: 2rem;
+  font-family: 'Euphoria Script', cursive;
+}
+
+#invisible {
+  color: #0D4545;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+button {
+  background-color: #83A8A8;
+  border-radius: 4px;
+  display: inline-flex;
+}
+
+.inspire-button {
+  float: left;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.sad-button {
+  float: right;
+  margin-right: 400px;
+  margin-top: 20px;
+}
+
+/* #9B6335 #205D5D #558888 #FFE0C6 #E2B48E #BB8559 #734015 #357070 #0D4545 #83A8A8 */
